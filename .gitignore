@@ -1,0 +1,13 @@
+# Backup/swap
+*~
+.*.swp
+
+# IDEs
+/.vs/
+/.vscode/
+*.code-workspace
+
+# Portage
+/distfiles/
+/metadata/md5-cache/
+/profiles/use.local.desc
