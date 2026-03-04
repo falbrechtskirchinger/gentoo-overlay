@@ -6,6 +6,11 @@ DESCRIPTION="Control utility for RGB devices"
 HOMEPAGE="https://github.com/falbrechtskirchinger/myrgb"
 EGIT_REPO_URI="https://github.com/falbrechtskirchinger/myrgb.git"
 
+if [[ ${PV} != *9999* ]]; then
+	EGIT_COMMIT="v${PV}"
+	KEYWORDS="~amd64"
+fi
+
 LICENSE="all-rights-reserved"
 SLOT="0"
 
